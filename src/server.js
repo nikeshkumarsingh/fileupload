@@ -1,10 +1,10 @@
 const app=require("./index");
 const connect =require("./config/db.js")
 
-app.listen(1234,async function(){
+app.listen(5000,async function(){
    try{
      await connect();
-     console.log("listening 1234")
+     console.log("listening 5000")
    }
    catch(err){
        console.log(err)
